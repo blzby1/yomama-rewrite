@@ -1,6 +1,7 @@
 # site plan
 
 - nginx server, example configuration in README
+- firewall covering the other ports (security)
 - nodejs backend
 - list of standard "headers" or top bars
 - other list of standard "footers"
