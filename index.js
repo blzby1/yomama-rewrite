@@ -33,7 +33,7 @@ function getPage(title, objs) {
 app.use('/', express.static(__dirname + "/src/css"))
 
 app.route('/').get((req, res) => {
-    var page = getPage("Home Page", ["/html/_topbar.html", "/md/home.md"]);
+    var page = getPage("Home Page", ["/html/_topbar.html", "/md/home.md", "/html/_credits.html"]);
     res.send(page);
 });
 

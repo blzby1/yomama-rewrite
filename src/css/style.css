@@ -27,3 +27,16 @@ a.topbar-item, a.logo {
 a.topbar-item {
     font-weight: bold;
 }
+
+div.credits {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+div.credits p.tiny {
+    font-size: 10px;
+}
