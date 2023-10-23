@@ -1,0 +1,15 @@
+{
+  "name": "yomama-rewrite",
+  "version": "1.0.0",
+  "description": "unblocked game site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"I love unblocked games!!!\"",
+    "start": "nodemon index.js"
+  },
+  "author": "Reid Cameron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
