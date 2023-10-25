@@ -8,6 +8,7 @@
     flex-wrap: nowrap;
     width: 100%;
     justify-content: flex-end;
+    position: relative;
 }
 
 .topbar .logo {
@@ -27,3 +28,32 @@ a.topbar-item, a.logo {
 a.topbar-item {
     font-weight: bold;
 }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.topbar-item:hover ~ .dropdown-content {display: block;}
+  
+.topbar-item:hover {background-color: #e0e0e0;}

@@ -30,12 +30,19 @@ function getPage(title, objs) {
 }
 
 
-app.use('/', express.static(__dirname + "/src/css"))
+app.use('/', express.static(__dirname + "/src/css/basic"));
 
 app.route('/').get((req, res) => {
     var page = getPage("Home Page", ["/html/_topbar.html", "/md/home.md", "/html/_credits.html"]);
     res.send(page);
 });
+
+app.use('/games', express.static(__dirname + '/src/css/none'))
+
+app.route('/games').get((req, res) => {
+    var page = getPage("Games", ["/html/_topbar.html", "/md/games.md", "/html/_credits.html"]);
+    res.send(page);
+})
 
 // 404 error handler
 app.use(function(req, res, next) {
