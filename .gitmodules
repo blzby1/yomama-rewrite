@@ -1,0 +1,3 @@
+[submodule "games/web/SpaceCompany"]
+	path = games/web/SpaceCompany
+	url = https://github.com/sparticle999/SpaceCompany.git
