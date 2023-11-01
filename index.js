@@ -1,23 +1,25 @@
-const express = require('express');
-const fs = require('fs');
-const markdownit = require('markdown-it');
-const emoji = require('markdown-it-emoji');
+import express from 'express';
+import fs from 'fs';
+import markdownit from 'markdown-it';
+import emoji from 'markdown-it-emoji';
+import { routeGames } from './games.js';
 
-const app = express();
+export const app = express();
+
 var md = new markdownit({linkify: true, typographer: true})
     .use(emoji)
 
-const stdHeader = __dirname + '/src/html/core/_header.html'
-const stdFooter = __dirname + '/src/html/core/_footer.html'
+const stdHeader = './src/html/core/_header.html'
+const stdFooter = './src/html/core/_footer.html'
 
-function getPage(title, objs) {
+export function getPage(title, objs) {
     var data = fs.readFileSync(stdHeader);
     var edited = data.toString().replace(/<title>placeholder<\/title>/g, "<title>" + title.toString() + "</title>");
 
     const mdRegex = /^.*\.(md|MD)$/
 
     for (let i = 0; i < objs.length; i++) {
-        var nextFile = __dirname + '/src/' + objs[i]
+        var nextFile = './src/' + objs[i]
         if (mdRegex.test(nextFile) == true) {
             var mdFile = fs.readFileSync(nextFile);
             edited += md.render(mdFile.toString())
@@ -30,24 +32,21 @@ function getPage(title, objs) {
 }
 
 
-app.use('/', express.static(__dirname + "/src/css/basic"));
+app.use('/', express.static("./src/css/basic"));
 
 app.route('/').get((req, res) => {
     var page = getPage("Home Page", ["/html/_topbar.html", "/md/home.md", "/html/_credits.html"]);
     res.send(page);
 });
 
-app.use('/games', express.static(__dirname + '/src/css/none'))
-
-app.route('/games').get((req, res) => {
-    var page = getPage("Games", ["/html/_topbar.html", "/md/games.md", "/html/_credits.html"]);
-    res.send(page);
-})
+// biggest function you'll ever see
+routeGames();
 
 // 404 error handler
 app.use(function(req, res, next) {
-  res.status(404);
-  res.type('txt').send('404 Error: Page not found');
+    res.status(404);
+    var page = getPage("404 Error", ["/html/_topbar.html", "/md/errors/404.md", "/html/_credits.html"])
+    res.send(page);
 });
 
 app.listen(8080);

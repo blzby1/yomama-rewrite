@@ -1,0 +1,27 @@
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<div id="container" style="display:flex;align-items:center;justify-content:center;">
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("DOMContentLoaded", () => {
+            let ruffle = window.RufflePlayer.newest();
+
+            let player = ruffle.createPlayer();
+
+            player.style.height = "600px";
+            player.style.width = "850px";
+
+            let container = document.getElementById("container");
+            container.appendChild(player);
+
+            placeholder
+
+            player.displayMessage("Press the fullscreen button below if you want to go into fullscreen.");
+
+            document.getElementById("bt").onclick = function() {
+                player.enterFullscreen();
+            }
+        }); 
+    </script>
+</div>
+<button id="bt" style="padding:15px;">Click here to enter fullscreen</button>
