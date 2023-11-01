@@ -1,0 +1,3 @@
+## What I'm Never Going to Add
+
+I will never use external software that unblocks websites on the chromebook. When I used them in the past, I was responsible enough to not go on inappropriate sites. Unfortunately, I cannot trust everyone else to do the same. There will be some kid that goes on an inappropriate site, and I will get blamed for it. Because of that, there will never be an unblocker on this website.

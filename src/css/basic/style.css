@@ -1,5 +1,10 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
 }
 
 .topbar {
@@ -21,7 +26,7 @@
 
 a.topbar-item, a.logo {
     text-decoration: none;
-    color: black;   
+    color: white;   
 }
 
 a.topbar-item {
@@ -29,14 +34,14 @@ a.topbar-item {
 }
 
 div.credits {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
 }
 
 div.credits p.tiny {
     font-size: 10px;
+}
+
+button {
+    color: black;
 }

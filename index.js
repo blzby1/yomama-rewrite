@@ -42,6 +42,20 @@ app.route('/').get((req, res) => {
 // biggest function you'll ever see
 routeGames();
 
+app.use('/docs', express.static("./src/css/basic"));
+
+app.route('/docs').get((req, res) => {
+    var page = getPage("Docs", ["/html/_topbar.html", "/md/docs/docs.md", "/html/_credits.html"]);
+    res.send(page);
+})
+
+app.route('/docs/todo').get((req, res) => {
+    var page = md.render("# TODO (top means coming first): \n - put minecraft on the site \n - make the web games not be fullscreen anymore \n - add to the docs");
+    var unblockers = fs.readFileSync('./src/md/docs/unblockers.md');
+    page += md.render(unblockers.toString())
+    res.send(page)
+});
+
 // 404 error handler
 app.use(function(req, res, next) {
     res.status(404);

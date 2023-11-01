@@ -17,8 +17,8 @@ Are you extremely bored? Are you confused on how to sign into the minecraft serv
     - Rules
     - Ranks
         - Standard Commands
-- [To-do page](/todo)
-    - What i'm never going to add
+- [To-do page](/docs/todo)
+    - [What i'm never going to add](/docs/todo)
 - Make your own website
     - Make your own chromebook minecraft server
     - Make your own chat
@@ -29,7 +29,7 @@ Are you extremely bored? Are you confused on how to sign into the minecraft serv
 
 Obviously, the core of this website is the games. It's what most people come here for. Its other purpose, at least for me, is a passion project. I love to code, and I love to share my creations with others. When I add a new feature, it's a sign that I've learned something new. I haven't done anything like this in my past, except when I was distributing .zip website files to classmates in middle school (shoutout to the homies who've been here since grandview-unblocked).
 
-The purpose of the Docs is to teach you something new. If it isn't immediately obvious, the docs are done in a completely different, more minimalist style than the "main" site. This is due to the use of Markdown, which will be used for any coding tutorial or documentation page for the sake of simplicity. This simplicity allows me to pack a lot of information into this website with minimal work.
+The purpose of the Docs is to teach you something new. Most pages, including the entirety of the docs uses a language called [Markdown](https://www.markdownguide.org/getting-started/), which will be used for any coding tutorial or documentation page for the sake of simplicity. This simplicity allows me to pack a lot of information into this website with minimal work.
 
 ## Why the :3000?
 
