@@ -1,7 +1,10 @@
 
 ## web games
 [ADOFAI](/games/a-dance-of-fire-and-ice/) - 
-[Basket Random](/games/basket-random/) - 
+[Basket Random](/games/basket-random/) -
+[Boxing Random](/games/boxing-random) - 
+[Soccer Random](/games/soccer-random) - 
+[Volley Random](/games/volley-random) -  
 [Basketball Stars](/games/basketball-stars) - 
 [Burrito Bison](/games/bb/) - 
 [Celeste](/games/celeste/) - 
@@ -29,6 +32,7 @@
 
 ## Flash Games
 [8 Ball Pool](/games/flash/8BallPool) - 
+[Age of War](/games/flash/Age-of-War) - 
 [Bloons Tower Defense 2](/games/flash/bloons_tower_defense_2) - 
 [Bloxors](/games/flash/Bloxors) - 
 [Duck Life 1](/games/flash/ducklife1) - 
