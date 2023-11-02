@@ -216,5 +216,26 @@ export function routeGames() {
         var page = fs.readFileSync('./games/web/volleygosh/index.html')
         res.send(page);
     });
+
+    app.use('/games/boxing-random', express.static('./games/web/boxing-random'))
+
+    app.route('/games/boxing-random').get((req, res) => {
+        var page = fs.readFileSync('./games/web/boxing-random/index.html')
+        res.send(page);
+    });
+
+    app.use('/games/soccer-random', express.static('./games/web/soccer-random'))
+
+    app.route('/games/soccer-random').get((req, res) => {
+        var page = fs.readFileSync('./games/web/soccer-random/index.html')
+        res.send(page);
+    });
+
+    app.use('/games/volley-random', express.static('./games/web/volley-random'))
+
+    app.route('/games/volley-random').get((req, res) => {
+        var page = fs.readFileSync('./games/web/volley-random/index.html')
+        res.send(page);
+    });
 }
 

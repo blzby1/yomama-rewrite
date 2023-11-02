@@ -4,7 +4,7 @@
 [Basket Random](/games/basket-random/) -
 [Boxing Random](/games/boxing-random) - 
 [Soccer Random](/games/soccer-random) - 
-[Volley Random](/games/volley-random) -  
+[Volley Random](/games/volley-random) - 
 [Basketball Stars](/games/basketball-stars) - 
 [Burrito Bison](/games/bb/) - 
 [Celeste](/games/celeste/) - 
