@@ -1,6 +1,5 @@
 
-## featured games :bear:
-[Five Nights at Freddy's 2 (with hacks)](/games/fnaf2)
+&nbsp;
 
 ## web games
 [ADOFAI](/games/a-dance-of-fire-and-ice/) - 
@@ -51,3 +50,8 @@
 [Super Smash Flash](/games/flash/super_smash_flash) - 
 [The Impossible Quiz](/games/flash/TheImpossibleQuiz) - 
 [Zombocalypse](/games/flash/zombocalypse)
+
+---
+
+## featured games :bear:
+[Five Nights at Freddy's 2 (with hacks)](/games/fnaf2)
