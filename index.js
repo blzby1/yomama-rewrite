@@ -32,7 +32,7 @@ export function getPage(title, objs) {
 }
 
 
-app.use('/', express.static("./src/css/basic"));
+app.use('/', express.static("./src/css"));
 
 app.route('/').get((req, res) => {
     var page = getPage("Home Page", ["/html/_topbar.html", "/md/home.md", "/html/_credits.html"]);
@@ -42,7 +42,6 @@ app.route('/').get((req, res) => {
 // biggest function you'll ever see
 routeGames();
 
-app.use('/docs', express.static("./src/css/basic"));
 
 app.route('/docs').get((req, res) => {
     var page = getPage("Docs", ["/html/_topbar.html", "/md/docs/docs.md", "/html/_credits.html"]);
@@ -55,6 +54,11 @@ app.route('/docs/todo').get((req, res) => {
     page += md.render(unblockers.toString())
     res.send(page)
 });
+
+app.route('/docs/credits').get((req, res) => {
+    var page = getPage("credits", ['/md/docs/credits.md']);
+    res.send(page);
+})
 
 // 404 error handler
 app.use(function(req, res, next) {

@@ -22,6 +22,8 @@ Are you extremely bored? Are you confused on how to sign into the minecraft serv
 - Make your own website
     - Make your own chromebook minecraft server
     - Make your own chat
+- [Credits](/docs/credits)
+
 
 &nbsp;
 

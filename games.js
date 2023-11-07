@@ -11,8 +11,6 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 export function routeGames() {
 
     // games page
-    app.use('/games', express.static('./src/css/basic'))
-
     app.route('/games').get((req, res) => {
         var page = getPage("Games", ["/html/_topbar.html", "/md/games.md", "/html/_credits.html"]);
         res.send(page);
@@ -34,11 +32,6 @@ export function routeGames() {
             res.send(page)
         }
     });
-
-    // send the css file to the client because i am lazy
-    app.get('/games/flash/:game/style.css', (req, res) => {
-        res.sendFile(__dirname + '/src/css/basic/style.css')
-    })
 
     // start of code spaghetti!!!
 

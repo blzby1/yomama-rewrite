@@ -3,16 +3,9 @@
 ## Features
 
 - :hammer: Minecraft: Currently in development; will have the ability to join external servers (except Hypixel, they don't allow web clients)
-- :video_game: [Games](/games): This page is very basic right now, but I will eventually give it a fresh coat of paint. In the meantime, enjoy every Moto X3M
-- :newspaper: [Docs](/docs) - Absolute yap session
-
---- 
-
-&nbsp;
-
-## placeholder for the chat
-
-&nbsp;
+- :video_game: [Games](/games): **NEW FEATURED GAME**: Five Nights at Freddy's 2: Modded
+- :speech_balloon: Chat: Currently in development; will probably end up having multiple chat rooms, depends how motivated I am to make a good app
+- :newspaper: [Docs](/docs) - new credits page if you care about that
 
 ---
 
@@ -26,3 +19,5 @@
     - I would recommend using a URL shortner like [bit.ly](https://bit.ly)
 
 :thinking: Any other questions? Just email me.
+
+---
