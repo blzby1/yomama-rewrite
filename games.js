@@ -237,5 +237,12 @@ export function routeGames() {
         var page = fs.readFileSync('./games/web/volley-random/index.html')
         res.send(page);
     });
+
+    app.use('/games/fnaf2', express.static('./games/web/fnaf2'))
+
+    app.route('/games/fnaf2').get((req, res) => {
+        var page = fs.readFileSync('./games/web/fnaf2/index.html')
+        res.send(page);
+    });
 }
 

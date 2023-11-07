@@ -1,4 +1,7 @@
 
+## featured games :bear:
+[Five Nights at Freddy's 2 (with hacks)](/games/fnaf2)
+
 ## web games
 [ADOFAI](/games/a-dance-of-fire-and-ice/) - 
 [Basket Random](/games/basket-random/) -
