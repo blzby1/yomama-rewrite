@@ -237,5 +237,12 @@ export function routeGames() {
         var page = fs.readFileSync('./games/web/fnaf2/index.html')
         res.send(page);
     });
+
+    app.use('/games/watermelon', express.static('./games/web/watermelon'))
+
+    app.route('/games/watermelon').get((req, res) => {
+        var page = fs.readFileSync('./games/web/watermelon/index.html')
+        res.send(page);
+    });
 }
 

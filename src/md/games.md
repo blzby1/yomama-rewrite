@@ -53,5 +53,7 @@
 
 ---
 
-## featured games :bear:
+## featured games :watermelon:
 [Five Nights at Freddy's 2 (with hacks)](/games/fnaf2)
+
+[Watermelon Game](/games/watermelon)
