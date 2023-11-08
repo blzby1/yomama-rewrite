@@ -3,7 +3,7 @@
 ## Features
 
 - :hammer: Minecraft: Currently in development; will have the ability to join external servers (except Hypixel, they don't allow web clients)
-- :video_game: [Games](/games): **NEW FEATURED GAME**: Five Nights at Freddy's 2: Modded
+- :video_game: [Games](/games): **WATERMELON GAME HAS BEEN ADDED!!!**
 - :speech_balloon: Chat: Currently in development; will probably end up having multiple chat rooms, depends how motivated I am to make a good app
 - :newspaper: [Docs](/docs) - new credits page if you care about that
 
