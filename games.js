@@ -244,5 +244,12 @@ export function routeGames() {
         var page = fs.readFileSync('./games/web/watermelon/index.html')
         res.send(page);
     });
+
+    app.use('/games/GetawayShootout', express.static('./games/web/GetawayShootout'))
+
+    app.route('/games/GetawayShootout').get((req, res) => {
+        var page = fs.readFileSync('./games/web/GetawayShootout/index.html')
+        res.send(page);
+    });
 }
 
