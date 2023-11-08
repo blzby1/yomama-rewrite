@@ -1,6 +1,6 @@
 # how to run
 
-- do (git submodule update --init --recursive) on space company
+- do (git submodule update --init --recursive) on space company and watermelon
 - npm start
 - there's a warning rn ill fix that later
 
