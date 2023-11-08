@@ -1,3 +1,6 @@
 [submodule "games/web/SpaceCompany"]
 	path = games/web/SpaceCompany
 	url = https://github.com/sparticle999/SpaceCompany.git
+[submodule "games/web/watermelon"]
+	path = games/web/watermelon
+	url = https://github.com/choshinyoung/watermelon.git
