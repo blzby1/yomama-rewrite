@@ -4,3 +4,6 @@
 [submodule "games/web/watermelon"]
 	path = games/web/watermelon
 	url = https://github.com/choshinyoung/watermelon.git
+[submodule "games/web/GetawayShootout"]
+	path = games/web/GetawayShootout
+	url = https://github.com/lordsofdank/GetawayShootout.git
