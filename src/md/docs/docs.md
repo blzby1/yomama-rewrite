@@ -15,8 +15,11 @@ Are you extremely bored? Are you confused on how to sign into the minecraft serv
 - Minecraft
     - Register/Sign in
     - Rules
-    - Ranks
+    - Ranks (Rank will most likely be your grade level)
         - Standard Commands
+    - Spawn
+    - May do a form to play the server
+    - Cool plugins
 - [To-do page](/docs/todo)
     - [What i'm never going to add](/docs/todo)
 - Make your own website
