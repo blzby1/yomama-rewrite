@@ -14,6 +14,7 @@
 [Duck Life 2 (Remastered)](/games/ducklife2/) - 
 [Duck Life 3 (Remastered)](/games/ducklife3/) -
 [Duck Life 4 (Remastered)](/games/ducklife4/) - 
+[Five Nights at Freddy's 2 (with hacks)](/games/fnaf2) - 
 [Friendly Fire](/games/friendlyfire/) - 
 [Madalin Cars](/games/madalin-cars-multiplayer/) - 
 [Moto X3M: Original](/games/moto-x3m/) - 
@@ -29,6 +30,7 @@
 [Space Company](/games/SpaceCompany/) - 
 [Tetris](/games/tetris/) - 
 [Volleygosh](/games/volleygosh/) - 
+[Watermelon Game](/games/watermelon) -
 [Getaway Shootout](/games/GetawayShootout)
 
 ---
@@ -54,7 +56,16 @@
 
 ---
 
-## featured games :watermelon:
-[Five Nights at Freddy's 2 (with hacks)](/games/fnaf2)
+## featured games :pizza:
 
-[Watermelon Game](/games/watermelon)
+[Papa's Bakeria](/games/flash/papas-bakeria) - 
+[Papa's Cupcakeria](/games/flash/papas-cupcakeria) - 
+[Papa's Donuteria](/games/flash/papas-donuteria) - 
+[Papa's Freezeria](/games/flash/papas-freezeria) - 
+[Papa's Hot-doggeria](/games/flash/papas-hot-doggeria) - 
+[Papa's Pancakeria](/games/flash/papas-pancakeria) - 
+[Papa's Pastaria](/games/flash/papas-pastaria) - 
+[Papa's Pizzeria](/games/flash/papas-pizzeria) - 
+[Papa's Scooperia](/games/flash/papas-scooperia) - 
+[Papa's Sushiria](/games/flash/papas-sushiria) - 
+[Papa's Wingeria](/games/flash/papas-wingeria)

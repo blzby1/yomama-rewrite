@@ -2,9 +2,8 @@
 
 ## Features
 
-- :hammer: Minecraft: Currently in development; Server is on its way!, to get access the server fill out this form -> 
- [bit.ly/3tWAyDL](http://bit.ly/3tWAyDL) these will be read everyday.
-- :video_game: [Games](/games): **WATERMELON GAME HAS BEEN ADDED!!!**
+- :hammer: Minecraft: Currently in development; Server is on its way! (i hope)
+- :video_game: [Games](/games): **PAPA'S WHATEVER-ARIA GAMES HAVE BEEN ADDED!**
 - :speech_balloon: Chat: Currently in development; will probably end up having multiple chat rooms, depends how motivated I am to make a good app
 - :newspaper: [Docs](/docs) - new credits page if you care about that
 
@@ -12,8 +11,6 @@
 
 ## FAQ
 
-- ADD FORTNITE!!!!
-    - No, I cannot add Fortnite. Yes, I know Sai did it once. Yes, I know how to do it. No, I will not share the method because some kid will abuse it, and I will get in trouble for it.
 - ADD (insert Construct 3 game here)!!!!!
     - I have tried to do it a few times, but have never been successful. Who knows, maybe one day I'll get it.
 - How do I share the website?
