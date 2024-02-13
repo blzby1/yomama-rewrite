@@ -3,7 +3,7 @@
 ## Features
 
 - :hammer: Minecraft: Currently in development; Server is on its way! (i hope)
-- :video_game: [Games](/games): **PAPA'S WHATEVER-ARIA GAMES HAVE BEEN ADDED!**
+- :video_game: [Games](/games): **PAPA'S WHATEVER-ARIA GAMES HAVE BEEN ADDED!** **TETRIS UPDATE**
 - :speech_balloon: Chat: Currently in development; will probably end up having multiple chat rooms, depends how motivated I am to make a good app
 - :newspaper: [Docs](/docs) - new credits page if you care about that
 
