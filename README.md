@@ -2,11 +2,19 @@ Please take the time to read through most of this document before making edits. 
 
 # how to run
 
-- Run ```npm install -g nodemon``` to install the thing that runs the site
-- Run ```npm install``` to install all of the packages for the site
-- Run ```git submodule update --init --recursive``` to load in Space Company, Watermelon Game, and Getaway Shootout
-- Run ```npm start``` to start the website. To access the website, go to the "ports" section of the terminal in the codespace, click "Forward a Port" and type in 3000. Once the port is forwarded, you can ctrl + click the website in the "Forwarded Address" section or press the website symbol that pops up by hovering over it.
-    - There's a warning currently that shows up every time you run the website. This is probably normal. If something out of the ordinary does happen, feel free to contact me.
+    npm install -g nodemon
+to install the thing that runs the site
+
+    npm install 
+to install all of the packages for the site
+
+    git submodule update --init --recursive
+to load in Space Company, Watermelon Game, and Getaway Shootout
+
+    npm start 
+to start the website. To access the website, go to the "ports" section of the terminal in the codespace, click "Forward a Port" and type in 3000. Once the port is forwarded, you can ctrl + click the website in the "Forwarded Address" section or press the website symbol that pops up by hovering over it.
+    
+**There's a warning currently that shows up every time you run the website. This is probably normal. If something out of the ordinary does happen, feel free to contact me.**
 
 The goal is to keep styles consistent. This will make creating pages easier and faster. Redesigns in the future will also be simple. When making updates, please just keep everything consistent.
 
