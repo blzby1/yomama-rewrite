@@ -2,6 +2,7 @@
 &nbsp;
 
 ## web games
+
 [ADOFAI](/games/a-dance-of-fire-and-ice/) - 
 [Basket Random](/games/basket-random/) -
 [Boxing Random](/games/boxing-random) - 
@@ -35,7 +36,24 @@
 
 ---
 
-## Flash Games
+## papa's games :pizza:
+
+[Papa's Bakeria](/games/flash/papas-bakeria) - 
+[Papa's Cupcakeria](/games/flash/papas-cupcakeria) - 
+[Papa's Donuteria](/games/flash/papas-donuteria) - 
+[Papa's Freezeria](/games/flash/papas-freezeria) - 
+[Papa's Hot-doggeria](/games/flash/papas-hot-doggeria) - 
+[Papa's Pancakeria](/games/flash/papas-pancakeria) - 
+[Papa's Pastaria](/games/flash/papas-pastaria) - 
+[Papa's Pizzeria](/games/flash/papas-pizzeria) - 
+[Papa's Scooperia](/games/flash/papas-scooperia) - 
+[Papa's Sushiria](/games/flash/papas-sushiria) - 
+[Papa's Wingeria](/games/flash/papas-wingeria)
+
+---
+
+## flash Games
+
 [8 Ball Pool](/games/flash/8BallPool) - 
 [Age of War](/games/flash/Age-of-War) - 
 [Bloons Tower Defense 2](/games/flash/bloons_tower_defense_2) - 
@@ -56,16 +74,6 @@
 
 ---
 
-## featured games :pizza:
+## featured games
 
-[Papa's Bakeria](/games/flash/papas-bakeria) - 
-[Papa's Cupcakeria](/games/flash/papas-cupcakeria) - 
-[Papa's Donuteria](/games/flash/papas-donuteria) - 
-[Papa's Freezeria](/games/flash/papas-freezeria) - 
-[Papa's Hot-doggeria](/games/flash/papas-hot-doggeria) - 
-[Papa's Pancakeria](/games/flash/papas-pancakeria) - 
-[Papa's Pastaria](/games/flash/papas-pastaria) - 
-[Papa's Pizzeria](/games/flash/papas-pizzeria) - 
-[Papa's Scooperia](/games/flash/papas-scooperia) - 
-[Papa's Sushiria](/games/flash/papas-sushiria) - 
-[Papa's Wingeria](/games/flash/papas-wingeria)
+[Duotrigordle (32 wordles at the same time)](https://sciencelabz.education:6969/)

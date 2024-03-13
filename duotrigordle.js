@@ -2,10 +2,10 @@ import express from 'express';
 
 export const app = express();
 
-app.use("/", express.static("./cellsalive"));
+app.use("/", express.static("./games/web/duotrigordle"));
 
 app.get("/", (req, res) => {
-    res.redirect("/index.htm");
+    res.sendFile("./games/web/duotrigordle");
 })
 
 app.use(function(req, res, next) {
@@ -13,4 +13,4 @@ app.use(function(req, res, next) {
     res.send("404 Error: Page not found");
 });
 
-app.listen(8673);
+app.listen(6969);
