@@ -7,3 +7,6 @@
 [submodule "games/web/GetawayShootout"]
 	path = games/web/GetawayShootout
 	url = https://github.com/lordsofdank/GetawayShootout.git
+[submodule "games/web/1v1.lol"]
+	path = games/web/1v1.lol
+	url = https://github.com/jerrickkjx/1v1.lol.git
