@@ -76,4 +76,5 @@
 
 ## featured games
 
-[Duotrigordle (32 wordles at the same time)](https://sciencelabz.education:6969/)
+[Duotrigordle (32 wordles at the same time)](https://sciencelabz.education:6969/) - 
+[1v1.lol](/games/1v1.lol/)

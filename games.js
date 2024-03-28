@@ -251,5 +251,12 @@ export function routeGames() {
         var page = fs.readFileSync('./games/web/GetawayShootout/index.html')
         res.send(page);
     });
+
+    app.use('/games/1v1.lol', express.static('./games/web/1v1.lol'))
+
+    app.route('/games/1v1.lol').get((req, res) => {
+        var page = fs.readFileSync('./games/web/1v1.lol/index.html')
+        res.send(page);
+    });
 }
 
