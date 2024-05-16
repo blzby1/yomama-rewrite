@@ -2,7 +2,7 @@
 
 ## Features
 
-- :hammer: Minecraft: Currently in development; Server is on its way! (i hope)
+- :hammer: **Minecraft**: Currently in development for **Next Year!** Sorry for not releasing This Year (I promise it'll be worth the wait)
 - :video_game: [Games](/games): **After way too much delay, 1V1.lol is here!!!**
 - :speech_balloon: Chat: Currently in development; will probably end up having multiple chat rooms, depends how motivated I am to make a good app
 - :newspaper: [Docs](/docs) - new credits page if you care about that
