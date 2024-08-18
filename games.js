@@ -2,7 +2,7 @@ import { getPage } from "./index.js";
 import { app } from './index.js';
 import express from 'express';
 import fs from 'fs';
-import gamelist from './gamelist.json' assert { type: "json" };
+import gamelist from './gamelist.json' with { type: 'json' };
 
 // stinky workaround
 import * as url from 'url';
