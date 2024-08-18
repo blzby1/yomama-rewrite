@@ -42,6 +42,7 @@ app.route('/').get((req, res) => {
 // biggest function you'll ever see
 routeGames();
 
+app.use('/minecraft', express.static("./src/mc-client"));
 
 app.route('/docs').get((req, res) => {
     var page = getPage("Docs", ["/html/_topbar.html", "/md/docs/docs.md", "/html/_credits.html"]);
